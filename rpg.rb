@@ -1,17 +1,24 @@
 class Rpg < Formula
   desc "Rust Password Generator - A fast and customizable password generator"
   homepage "https://github.com/robot-accomplice/rpg"
-  version "1.1.0"
+  version "2.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/robot-accomplice/rpg/releases/download/1.1.0/rpg-v1.1.0-macos-arm64"
-      sha256 "96be1f8987af7fdd06af929430a5e166aad4ce92875a686101e6e9c7a586e81d"
+      url "https://github.com/robot-accomplice/rpg/releases/download/v2.0.0/rpg-v2.0.0-macos-arm64"
+      sha256 "3e72b31c7940627794da66e95a9650d113bf8e14712053fe832307061e8ad964"
     end
     on_intel do
-      url "https://github.com/robot-accomplice/rpg/releases/download/1.1.0/rpg-v1.1.0-macos-x86_64"
-      sha256 "53b85dfacf96aabe784b806f2ef7cf8a4d4d58c4455dcb205cd8457ec6a48831"
+      url "https://github.com/robot-accomplice/rpg/releases/download/v2.0.0/rpg-v2.0.0-macos-x86_64"
+      sha256 "10d937505ab003c70bac41425cda2d43b24735df07ab960a01de912296200be5"
+    end
+  end
+
+  on_linux do
+    on_intel do
+      url "https://github.com/robot-accomplice/rpg/releases/download/v2.0.0/rpg-v2.0.0-linux-x86_64"
+      sha256 "eac829147e6278f378320a3efdb94a54a27d85bbf5372e2e75b014b74ebb512b"
     end
   end
 
