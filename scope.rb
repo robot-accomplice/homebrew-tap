@@ -1,28 +1,28 @@
 class Scope < Formula
   desc "Blockchain analysis CLI for venue metadata, gas analytics, and on-chain forensics"
   homepage "https://github.com/robot-accomplice/scope-blockchain-analysis"
-  version "0.8.2"
+  version "0.8.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.2/scope-macos-arm64.tar.gz"
-      sha256 "8ee4fad33ecec69cb2518ee8789534a404dbf050fcc2cf3166c0f52849161a4b"
+      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.3/scope-macos-arm64.tar.gz"
+      sha256 "c1ce8bc38d0c58c9bcaa31a03828645fbd667116e757e66c1e6328bc68859fa0"
     end
     on_intel do
-      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.2/scope-macos-x64.tar.gz"
-      sha256 "504dad8317040a280ebf1dbdca8fbb6d90a426c06d05e33164f5a132191d3e38"
+      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.3/scope-macos-x64.tar.gz"
+      sha256 "e1055bcfc7478f89447934e84e6060ae94f616990cc0ccd25a22ae5b1071c03b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.2/scope-linux-x64.tar.gz"
-      sha256 "229ee33f149d25455e57feeb5fc6ba7cdbc4f604895b5cfbf7f5333e181b96a3"
+      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.3/scope-linux-x64.tar.gz"
+      sha256 "a926b60618533dc3452a6a81ddafab116d9233bb60217e8fe14ffe5a8e5ef8b3"
     end
     on_arm do
-      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.2/scope-linux-arm64.tar.gz"
-      sha256 "261f850e922dd429dad3ddc308169dc3f9a81b835de1d3f11db113bc250ff87b"
+      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.3/scope-linux-arm64.tar.gz"
+      sha256 "297a8e4a334c68fd15da5535aa856872f861a27a040b02dd8c371dde42e4e78e"
     end
   end
 
