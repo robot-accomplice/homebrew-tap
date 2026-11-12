@@ -1,28 +1,28 @@
 class Ghola < Formula
   desc "High-performance Go HTTP client for blockchain forensic analysis and browser-like URL fetching"
   homepage "https://github.com/robot-accomplice/ghola"
-  version "0.6.2"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/robot-accomplice/ghola/releases/download/v0.6.2/ghola_0.6.2_darwin_arm64.tar.gz"
-      sha256 "19c085e0e853d9a327ab730a734ccefbea0f345448b1acb1772d35ecdd799ef0"
+      url "https://github.com/robot-accomplice/ghola/releases/download/v0.7.0/ghola_0.7.0_darwin_arm64.tar.gz"
+      sha256 "c6fddf10b98012a4131441c492562cc8cfb91ef70283a267686f013e4b363add"
     end
     on_intel do
-      url "https://github.com/robot-accomplice/ghola/releases/download/v0.6.2/ghola_0.6.2_darwin_amd64.tar.gz"
-      sha256 "7b0af1e46983d20db175ddd520ac1320ab3b8accd7e534e1b40b7e662ccb26e3"
+      url "https://github.com/robot-accomplice/ghola/releases/download/v0.7.0/ghola_0.7.0_darwin_amd64.tar.gz"
+      sha256 "4183c0b126a267ed8d9e0d3d3892da4676b4ebc9e26d89e7a8428f880d777514"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/robot-accomplice/ghola/releases/download/v0.6.2/ghola_0.6.2_linux_amd64.tar.gz"
-      sha256 "286eecee5681d07645f8c72939213cfea470031af8f7d6c67acc5aa2d43765d8"
+      url "https://github.com/robot-accomplice/ghola/releases/download/v0.7.0/ghola_0.7.0_linux_amd64.tar.gz"
+      sha256 "116ac3e2d73e4c64382b38b5fe3efd302e1f971bc643d85d78de750bbc9ac5a6"
     end
     on_arm do
-      url "https://github.com/robot-accomplice/ghola/releases/download/v0.6.2/ghola_0.6.2_linux_arm64.tar.gz"
-      sha256 "81da8c104211f9c47883747eeeed4baee224277f0b6246782d12bbaa19fdb3f0"
+      url "https://github.com/robot-accomplice/ghola/releases/download/v0.7.0/ghola_0.7.0_linux_arm64.tar.gz"
+      sha256 "ccc1221281e0aa4ec14af4020468ebe8bc1f509c20079b73b7e7c798f72b9fe1"
     end
   end
 
