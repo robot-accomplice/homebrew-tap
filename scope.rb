@@ -1,28 +1,28 @@
 class Scope < Formula
   desc "Blockchain analysis CLI for venue metadata, gas analytics, and on-chain forensics"
   homepage "https://github.com/robot-accomplice/scope-blockchain-analysis"
-  version "0.8.9"
+  version "0.8.10"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.9/scope-macos-arm64.tar.gz"
-      sha256 "a906ee80838b43d61101cdf52deafd0f73e05f7d131126ba9b9a9aecb3ccf938"
+      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.10/scope-macos-arm64.tar.gz"
+      sha256 "3a0b0f5991c9db623807e70bd4246d7f779358ad53db24035c1316e3a3e5bc4b"
     end
     on_intel do
-      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.9/scope-macos-x64.tar.gz"
-      sha256 "c80fd672fbe082ac4ed9cd1535b7de7d87f62ac16bb5b0394b5eb617fc8b8d64"
+      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.10/scope-macos-x64.tar.gz"
+      sha256 "eb7cc674fb934eae08eef6830b5cc0e868235e392173a86aadc8ceaa81b24aec"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.9/scope-linux-x64.tar.gz"
-      sha256 "1d6e117efd8efbf00d60fb9db8f0b7207ffb95d9f7008cf8e0f18e8c771b5f0a"
+      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.10/scope-linux-x64.tar.gz"
+      sha256 "fbba770ba88198da09d13866793006c4dfc8a964575e6d46cf2bb44f99a07665"
     end
     on_arm do
-      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.9/scope-linux-arm64.tar.gz"
-      sha256 "f977b125b408674eda303efd0b994ecd0c3e7f339153f79f4916c9cbb3c71e2f"
+      url "https://github.com/robot-accomplice/scope-blockchain-analysis/releases/download/v0.8.10/scope-linux-arm64.tar.gz"
+      sha256 "7ec00112df5bab3d33ab377264b17854ed6ad5e8962e243fe09f90f99580d435"
     end
   end
 
